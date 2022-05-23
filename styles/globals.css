@@ -1,0 +1,61 @@
+/* minimal CSS reset based on: https://www.digitalocean.com/community/tutorials/css-minimal-css-reset */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto&family=Shippori+Antique+B1&display=swap');
+
+/* @font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans/OpenSans-Regular.tff");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+} */
+/* 
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto/Roboto-Regular.tff");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+} */
+
+/* Broken */
+@font-face {
+  font-family: "SF";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/SF/SFNSRounded.tff");
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: #111;
+  font-family: -apple-system, "Open Sans", "sans-serif";
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "SF", -apple-system, "Open Sans", "sans-serif";
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+/* ol, ul {
+  list-style: none;
+} */
